@@ -162,6 +162,6 @@ Changes to the code in these directories on the development machine will be refl
 
 #### Availability of phpMyAdmin ####
 
-For developers working on back-end services and the FarmData2 data model the installation starts a phpMyAdmin service that is available at `localhost:8181`.  You can connect to this service as an administrator using the credentials:
+For developers working on back-end services and the FarmData2 data model the installation a phpMyAdmin service that is available at `localhost:8181`.  You can connect to this service as an administrator using the credentials:
   * Username: `root`
   * Password: `farm`
