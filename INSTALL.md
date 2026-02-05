@@ -1,5 +1,9 @@
 ## Installing FarmData2 ##
-
+<<<<<<< HEAD
+## FEATURE BRANCH VERSION ##
+=======
+## MAIN BRANCH VERSION ##
+>>>>>>> main
 This document provides a guide to installing the FarmData2 project.  There are separate sections for doing a developer install and a user install.  If you are interested in working on and contributing to the FarmData2 project follow the Developer Install section.  If you are interested in using the FarmData2 application follow the User Install section.
 
 ## Communications ##  
@@ -84,7 +88,7 @@ To start FarmData2 ensure that you are in the `docker` directory in the reposito
 ./fd2-up.bash
 ```
 
-This command will starts up the docker containers that are used by FarmData2. There will be lots of output from this command and the first time you run it, it may take a while to complete as it pulls, downloads and extracts the docker images to your machine.
+This command will start up the docker containers that are used by FarmData2. There will be lots of output from this command and the first time you run it, it may take a while to complete as it pulls, downloads and extracts the docker images to your machine.
 
 If you encounter an error similar to `Cannot start service www`, it can likely be fixed by entering the command
 ```
@@ -162,6 +166,6 @@ Changes to the code in these directories on the development machine will be refl
 
 #### Availability of phpMyAdmin ####
 
-For developers working on back-end services and the FarmData2 data model the installation starts a phpMyAdmin service that is available at `localhost:8181`.  You can connect to this service as an administrator using the credentials:
+For developers working on back-end services and the FarmData2 data model the installation a phpMyAdmin service that is available at `localhost:8181`.  You can connect to this service as an administrator using the credentials:
   * Username: `root`
   * Password: `farm`
